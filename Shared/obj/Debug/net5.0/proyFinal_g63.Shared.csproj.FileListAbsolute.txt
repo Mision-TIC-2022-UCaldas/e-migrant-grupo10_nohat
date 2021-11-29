@@ -1,0 +1,12 @@
+C:\hackaton\proy_movies\proyFinal_g63\Shared\bin\Debug\net5.0\proyFinal_g63.Shared.deps.json
+C:\hackaton\proy_movies\proyFinal_g63\Shared\bin\Debug\net5.0\proyFinal_g63.Shared.dll
+C:\hackaton\proy_movies\proyFinal_g63\Shared\bin\Debug\net5.0\ref\proyFinal_g63.Shared.dll
+C:\hackaton\proy_movies\proyFinal_g63\Shared\bin\Debug\net5.0\proyFinal_g63.Shared.pdb
+C:\hackaton\proy_movies\proyFinal_g63\Shared\obj\Debug\net5.0\proyFinal_g63.Shared.csproj.AssemblyReference.cache
+C:\hackaton\proy_movies\proyFinal_g63\Shared\obj\Debug\net5.0\proyFinal_g63.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\hackaton\proy_movies\proyFinal_g63\Shared\obj\Debug\net5.0\proyFinal_g63.Shared.AssemblyInfoInputs.cache
+C:\hackaton\proy_movies\proyFinal_g63\Shared\obj\Debug\net5.0\proyFinal_g63.Shared.AssemblyInfo.cs
+C:\hackaton\proy_movies\proyFinal_g63\Shared\obj\Debug\net5.0\proyFinal_g63.Shared.csproj.CoreCompileInputs.cache
+C:\hackaton\proy_movies\proyFinal_g63\Shared\obj\Debug\net5.0\proyFinal_g63.Shared.dll
+C:\hackaton\proy_movies\proyFinal_g63\Shared\obj\Debug\net5.0\ref\proyFinal_g63.Shared.dll
+C:\hackaton\proy_movies\proyFinal_g63\Shared\obj\Debug\net5.0\proyFinal_g63.Shared.pdb

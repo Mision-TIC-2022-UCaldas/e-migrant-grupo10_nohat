@@ -1,0 +1,35 @@
+@page "/categories/create"
+@using proyFinal_g63.Client.Pages.Components
+@inject NavigationManager navigationManager
+@inject IServiceMovie movie_i
+
+@using System.Net.Http;
+
+
+
+<FormCategory Category = "Category" OnValidSubmit = "Create"></FormCategory>
+
+@code{
+
+    private Category Category = new Category();
+    async void Create(){
+
+        var httpResponse = await movie_i.Post("api/categories", Category);
+        //El evento enviar dispara esta tarea
+        if(httpResponse.Error)
+        {
+            var body = await httpResponse.HttpResponseMessage.Content.ReadAsStringAsync();
+            Console.WriteLine(body);
+        }
+        else
+        {
+            navigationManager.NavigateTo("/cargaexitosa");
+            Console.WriteLine(Category.Name);
+        }
+
+    }
+
+    
+    
+}
+

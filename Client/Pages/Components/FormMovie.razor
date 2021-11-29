@@ -1,0 +1,70 @@
+<EditForm Model = "Movie" OnValidSubmit="OnValidSubmit"> 
+    
+    <div>
+        <h3>Formulario Migrante</h3>
+    </div>
+
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <div class="row" >
+            <div class="col mb-3">
+
+               
+
+                <InputText class="form-control" @bind-Value="@Movie.Name" placeholder="Nombre" ></InputText>
+
+                <InputText class="form-control" @bind-Value="@Movie.Apellido" placeholder="Apellido" ></InputText>
+
+                <InputText class="form-control" @bind-Value="@Movie.Tipo_Documento" placeholder="Tipo de Documento" ></InputText>
+
+                <InputText class="form-control" @bind-Value="@Movie.Numero_Documento" placeholder="Numero_Documento" ></InputText>
+                
+                <InputText class="form-control" @bind-Value="@Movie.Pais_Origen" placeholder="País de Origen" ></InputText>
+
+                <InputText class="form-control" @bind-Value="@Movie.Fecha_Nacimiento" placeholder="Fecha_Nacimiento" ></InputText>
+
+                <InputText class="form-control" @bind-Value="@Movie.Email" placeholder="Email" ></InputText>
+
+                <InputText class="form-control" @bind-Value="@Movie.Telefono" placeholder="Telefono" ></InputText>
+
+                <InputText class="form-control" @bind-Value="@Movie.Direccion" placeholder="Direccion" ></InputText>
+
+                <InputText class="form-control" @bind-Value="@Movie.Ciudad" placeholder="Ciudad" ></InputText>
+
+                <InputText class="form-control" @bind-Value="@Movie.Situacion_Laboral" placeholder="Situacion Laboral" ></InputText>
+                
+                
+
+
+               
+                
+
+                <ValidationMessage For="@(()=>Movie.Name)"></ValidationMessage>
+                
+                
+
+            </div>
+
+            
+    </div>
+
+    <div class="row">
+
+        <div class="col mb-3">
+  
+            <button type="submit" class="btn btn-info">Guardar Migrante</button>
+
+        </div>
+
+
+    </div>
+
+</EditForm>
+
+@code{
+
+    [Parameter] public Movie Movie{get;set;}
+    [Parameter] public EventCallback OnValidSubmit{get;set;}
+
+
+
+}

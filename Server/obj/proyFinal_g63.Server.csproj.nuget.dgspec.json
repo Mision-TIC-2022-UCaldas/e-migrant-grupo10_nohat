@@ -1,0 +1,230 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\hackaton\\proy_movies\\proyFinal_g63\\server\\proyFinal_g63.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\hackaton\\proy_movies\\proyFinal_g63\\Client\\proyFinal_g63.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\hackaton\\proy_movies\\proyFinal_g63\\Client\\proyFinal_g63.Client.csproj",
+        "projectName": "proyFinal_g63.Client",
+        "projectPath": "C:\\hackaton\\proy_movies\\proyFinal_g63\\Client\\proyFinal_g63.Client.csproj",
+        "packagesPath": "C:\\Users\\Diego Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\hackaton\\proy_movies\\proyFinal_g63\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Diego Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\hackaton\\proy_movies\\proyFinal_g63\\Shared\\proyFinal_g63.Shared.csproj": {
+                "projectPath": "C:\\hackaton\\proy_movies\\proyFinal_g63\\Shared\\proyFinal_g63.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.9, 5.0.9]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\hackaton\\proy_movies\\proyFinal_g63\\server\\proyFinal_g63.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\hackaton\\proy_movies\\proyFinal_g63\\server\\proyFinal_g63.Server.csproj",
+        "projectName": "proyFinal_g63.Server",
+        "projectPath": "C:\\hackaton\\proy_movies\\proyFinal_g63\\server\\proyFinal_g63.Server.csproj",
+        "packagesPath": "C:\\Users\\Diego Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\hackaton\\proy_movies\\proyFinal_g63\\server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Diego Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\hackaton\\proy_movies\\proyFinal_g63\\Client\\proyFinal_g63.Client.csproj": {
+                "projectPath": "C:\\hackaton\\proy_movies\\proyFinal_g63\\Client\\proyFinal_g63.Client.csproj"
+              },
+              "C:\\hackaton\\proy_movies\\proyFinal_g63\\Shared\\proyFinal_g63.Shared.csproj": {
+                "projectPath": "C:\\hackaton\\proy_movies\\proyFinal_g63\\Shared\\proyFinal_g63.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkcore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkcore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkcore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkcore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\hackaton\\proy_movies\\proyFinal_g63\\Shared\\proyFinal_g63.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\hackaton\\proy_movies\\proyFinal_g63\\Shared\\proyFinal_g63.Shared.csproj",
+        "projectName": "proyFinal_g63.Shared",
+        "projectPath": "C:\\hackaton\\proy_movies\\proyFinal_g63\\Shared\\proyFinal_g63.Shared.csproj",
+        "packagesPath": "C:\\Users\\Diego Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\hackaton\\proy_movies\\proyFinal_g63\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Diego Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

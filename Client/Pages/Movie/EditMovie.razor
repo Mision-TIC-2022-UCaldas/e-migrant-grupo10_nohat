@@ -1,0 +1,32 @@
+@page "/movies/edit/{Id:int}"
+
+@using proyFinal_g63.Client.Pages.Components
+
+
+<FormMovie Movie = "Movie" OnValidSubmit = "Edit"></FormMovie>
+
+@code{
+
+    [Parameter] public int Id{get;set;}
+    private Movie Movie = new Movie();
+
+
+
+        protected override void OnInitialized()
+        {
+           Movie = new Movie(){
+                Id=Id,
+                Name = "Los Juegos del Hambre"
+            };
+        }
+
+
+    
+
+    
+    void Edit(){
+        Console.WriteLine(Movie.Name);
+
+    }
+}
+

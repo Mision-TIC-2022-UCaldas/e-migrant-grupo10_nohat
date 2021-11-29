@@ -1,0 +1,33 @@
+
+
+<div class="container">
+    <div class="jumbotron">
+                <table class="table">
+                <thead>
+                    <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Movie</th>
+                    
+                    </tr>
+                </thead>
+
+                @foreach (var movie in Movies){
+
+                        <tr>
+                        <th scope="row">@movie.Id</th>
+                        <td>@movie.Name</td>
+                        
+                        </tr>
+
+                }
+
+                </table>
+    </div>
+</div>
+
+@code{
+    
+    [Parameter] public List <Movie> Movies{get;set;}
+
+   
+}

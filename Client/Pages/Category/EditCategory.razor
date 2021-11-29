@@ -1,0 +1,29 @@
+@page "/categories/edit/{Id:int}"
+@using proyFinal_g63.Client.Services
+@using proyFinal_g63.Client.Pages.Components
+@inject IServiceMovie movie
+
+<FormCategory Category = "Category" OnValidSubmit = "Edit"></FormCategory>    @* OnValidSubmit = método void *@
+ 
+@code{ 
+
+    [Parameter] public int Id{get;set;}
+    
+        private Category Category = new Category();
+
+        protected override void OnInitialized()
+        {
+           Category = new Category(){ @* Se instancia la clase y se le ponen atributos *@
+                Id=Id,
+                Name = "Comedia"
+            };
+        }
+
+
+    
+    void Edit(){ 
+        Console.WriteLine(Category.Name);   @* El metodo lo que hace por ahora es escribir en consola *@
+
+    }
+}
+

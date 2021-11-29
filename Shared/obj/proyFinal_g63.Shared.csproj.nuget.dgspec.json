@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\hackaton\\proy_movies\\proyFinal_g63\\Shared\\proyFinal_g63.Shared.csproj": {}
+  },
+  "projects": {
+    "C:\\hackaton\\proy_movies\\proyFinal_g63\\Shared\\proyFinal_g63.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\hackaton\\proy_movies\\proyFinal_g63\\Shared\\proyFinal_g63.Shared.csproj",
+        "projectName": "proyFinal_g63.Shared",
+        "projectPath": "C:\\hackaton\\proy_movies\\proyFinal_g63\\Shared\\proyFinal_g63.Shared.csproj",
+        "packagesPath": "C:\\Users\\Diego Felipe\\.nuget\\packages\\",
+        "outputPath": "C:\\hackaton\\proy_movies\\proyFinal_g63\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Diego Felipe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
